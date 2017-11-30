@@ -1,7 +1,64 @@
-<!DOCTYPE html>  
-<html> 
-   <head>
-      <title> Hi! </title> 
-      <h1> This is a travel website </h1>
-   </head> 
-</html>  
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>cfg_project</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]><link rel="stylesheet" href="http://css-snippets.com/demos/dropdown/ie.css"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet prefetch' href='http://css-snippets.com/demos/dropdown/ie.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<!-- http://css-snippets.com/drop-down-navigation -->
+<body class="news">
+   <header>
+      <div class="nav">
+         <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="about"><a class= "active" href="#">About</a>
+            </li>
+            <li class="news">
+               <a href="#">Favourites</a>
+               <ul>
+                  <li><a href="#">India</a></li>
+                  <li><a href="#">Valentina</a></li>
+                  <li><a href="#">Farida</a></li>
+               </ul>
+            </li>
+            <li class="contact"><a href="#">Contact</a></li>
+         </ul>
+      </div>
+
+      <div class="nav2">
+      <div style="position:absolute; bottom:0px, left:0px, width:100%; overflow:visible; background-color:transparent; pointer-events: none; z-index: 0; height: 798px">
+      </div>
+
+      <div class="jumbotron">
+        <img id=backgrIMG src= http://wallpaperstock.net/beautiful-sunset-at-sea_wallpapers_34404_1440x900.jpg>
+        </div>
+         <div class="container">
+            <h1>Seas the day!</h1>
+         </div>
+      </div>
+      <div id="map">
+      <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="map" align="center">
+      <iframe id="mapItself"src="https://www.google.com/maps/d/embed?mid=1mDey9dumtpMfVka07BUMBm6Zas33NjSs" width="60%" height="500"></iframe>
+        </div>
+
+   </header>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+</body>
+</html>
