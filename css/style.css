@@ -100,8 +100,15 @@ h1 {
 
 
 }
+
+body, html {
+  cursor: url(https://im2.ezgif.com/tmp/ezgif-2-c67fa00ee1.png), pointer;
+  height: 20%;
+  width:20%;
+}
+
 /*******************************************
-   Style menu for larger screens
+  cfg17travelwebsite.github.io Style menu for larger screens
 
    Using 650px (130px each * 5 items), but ems
    or other values could be used depending on other factors
