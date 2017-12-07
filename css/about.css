@@ -266,9 +266,87 @@ p {
   box-sizing: border-box;
 }
 
+#indiacap {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;  margin: auto;
+  border: 3px solid grey;
+  float:left;
+  margin-top:100px;
 
+}
+
+#valen {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;  margin: auto;
+  border: 3px solid grey;
+  float:right;
+  margin-top:275px;
+}
+
+#farida {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;  margin: auto;
+  border: 3px solid grey;
+  float:left;
+  margin-top:100px;
+}
 .form {
 z-index:40;}
+
+.bubble-speech {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+  width: 990px;
+  background-color: #efefef;
+  padding: 16px;
+  float:left;
+
+
+
+}
+
+.bubble-speech.bubble-left:after {
+  z-index: 9002;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  border-top: 0 #efefef solid;
+  border-bottom: 12px transparent solid;
+  border-left: 20px #efefef solid;
+}
+
+.bubble-speech .author {
+  max-width: 200px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 12px 2px 0;
+}
+
+.bubble-speech.bubble-right:after {
+  z-index: 9002;
+  display: block;
+  content: "";
+  position: absolute;
+  margin-left:50px;
+  bottom: -11px;
+  right: 0;
+  border-top: 0 #efefef solid;
+  border-bottom: 12px transparent solid;
+  border-right: 20px #efefef solid;
+}
 /*******************************************
   cfg17travelwebsite.github.io Style menu for larger screens
 
