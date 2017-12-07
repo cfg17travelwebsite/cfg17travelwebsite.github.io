@@ -69,20 +69,7 @@ p1 {
   font-family: "Oswald", sans-serif;
   font-weight:;
   font-size:200%;
-}
-
-p2 {
-  font-family: "Oswald", sans-serif;
-}
-
-p3 {
-  font-family: "Oswald", sans-serif;
-  font-weight:;
-  font-size:200%;
-}
-
-p4 {
-  font-family: "Oswald", sans-serif;
+  font-color: white;
 }
 
 .container {
