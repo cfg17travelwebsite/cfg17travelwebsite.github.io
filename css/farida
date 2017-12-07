@@ -1,0 +1,13 @@
+farida.css
+
+#venice {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  z-index: 2;
+  margin:auto;
+  display:block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
