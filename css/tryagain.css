@@ -156,6 +156,7 @@ p4 {
   float:right;
   padding-top: 35px;
   padding-right: 50px;
+  max-width: 100%;
 }
 
 
@@ -169,6 +170,7 @@ p4 {
   float:left;
   padding-top: 35px;
   padding-left:50px;
+  max-width:100%;
 
 
 }
@@ -315,4 +317,35 @@ z-index:40;}
   .nav li ul li {
     display: block;
   }
+
+  @media screen and (max-width: 500px) {
+    #palm {
+      z-index: 4;
+      margin:auto;
+      display:block;
+      height:32px;
+      width: 10px;
+      position: relative;
+      float:right;
+      padding-top: 35px;
+      padding-right: 50px;
+      max-width: 100%;
+    }
+
+
+    #palmleft {
+      z-index:4;
+      margin:auto;
+      display:block;
+      height:32px;
+      width:10px;
+      position:relative;
+      float:left;
+      padding-top: 35px;
+      padding-left:50px;
+      max-width:100%;
+
+
+    }
+
 }
