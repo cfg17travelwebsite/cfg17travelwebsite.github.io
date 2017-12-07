@@ -1,7 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  background-color:#4D5788;
 
+}
+
+body, html {
+  cursor: url(https://github.com/cfg17travelwebsite/cfg17travelwebsite.github.io/blob/master/cursor.gif?raw=true), pointer;
+}
+
+.nav {
+  padding-left:150px;
 }
 
 .nav ul {
