@@ -12,7 +12,23 @@
   <link rel='stylesheet prefetch' href='http://css-snippets.com/demos/dropdown/ie.css'>
 
       <link rel="stylesheet" href="css/tryagain.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+      <script src="myscripts.js"></script>
+      <script type="text/javascript">
+          $(function () {
+              $("#dialog").dialog({
+                  modal: true,
+                  autoOpen: false,
+                  title: "jQuery Dialog",
+                  width: 300,
+                  height: 150
+              });
+              $("#btnShow").click(function () {
+                  $('#dialog').dialog('open');
+              });
+          });
+      </script>
 
 </head>
 
@@ -69,15 +85,20 @@
         </div>
         <div class="container">
         <p> Using 10 different sources, we mapped cities that appeared on more than one as a measure of best travel destinations in the world in 2017.
-<br>Sources:<br>
+<br>Sources:<br> ||
 <a href="https://www.lonelyplanet.com/best-in-travel" target="_blank">Lonely Planet</a>  ||
 <a href="http://www.telegraph.co.uk/travel/galleries/The-worlds-best-cities-in-pictures/" target="_blank">Telegraph</a>  ||
 <a href="https://www.tripadvisor.co.uk/TravelersChoice-Destinations-cTop-g1">TripAdvisor</a>  ||
-<a href="https://travel.usnews.com/rankings/worlds-best-vacations/">USNews</a> </p></div>  ||
+<a href="https://travel.usnews.com/rankings/worlds-best-vacations/">USNews</a>  ||</p>
+<br></br>
+
 
         <div id="cursor" class="body"> </div>
 
-
+        <input type="button" id="btnShow" value="Show Popup" />
+        <div id="dialog" style="display: none" align = "center">
+            This is a jQuery Dialog.
+        </div></div>
    </header>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
